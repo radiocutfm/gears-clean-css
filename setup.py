@@ -8,7 +8,7 @@ def read(filename):
 
 setup(
     name='gears-clean-css',
-    version='0.1',
+    version='0.1.1',
     url='https://github.com/gears/gears-clean-css',
     license='ISC',
     author='Mike Yumatov',
