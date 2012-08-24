@@ -1,5 +1,5 @@
 gears-clean-css
-==============
+===============
 
 clean-css_ compressor for Gears_. This package already includes the clean-css
 source code for you, so you don't need to worry about installing it yourself.
