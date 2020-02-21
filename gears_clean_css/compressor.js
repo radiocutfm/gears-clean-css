@@ -1,4 +1,4 @@
-var cleancss = require('clean-css'),
+var CleanCSS = require('clean-css'),
     source = '';
 
 process.stdin.resume();
@@ -9,5 +9,5 @@ process.stdin.on('data', function(chunk) {
 });
 
 process.stdin.on('end', function() {
-  process.stdout.write(cleancss.process(source));
+  process.stdout.write(new CleanCSS({}).minify(source).styles);
 });
